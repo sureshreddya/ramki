@@ -1,0 +1,30 @@
+.edit-icon{
+	background-image :url("../../images/Edit_icon.png");
+	height: 15px;
+	width: 10px;
+}
+.delete-icon{
+	background-image: url("../../images/Delete-icon.jpg");
+	height: 15px;
+	width: 10px;
+}
+table {
+  border-collapse: collapse;
+}
+table, td, th {
+  border: 1px solid black;
+  
+}
+.btnCreate{
+	padding: 8px 1px 8px 1px;
+    width: 6%;
+    border-radius: 2px;
+}
+.product-container{
+	width:90%;
+	height:560px;
+	margin: 0 auto;
+}
+.product-table{
+	margin:0 auto;
+}

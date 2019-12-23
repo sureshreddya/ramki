@@ -1,0 +1,237 @@
+.body_Container{
+	width : 100%;
+	heigth:100vh;
+}
+* {
+    margin: 0;
+    padding: 0;
+    heigth:
+}
+.navStaticbar{
+    text-align: center;
+    width:100%;
+    background-color:#000523;
+    margin:0px auto;
+}
+a {
+    text-decoration: none;
+    color:#09a1dc;
+    font-family:Georgia, serif;
+    font-size: 20px;
+}
+ul li a:hover {
+    text-decoration: none;
+    color:#ff0000;
+}
+ul li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 2vw;
+    
+}
+.navstaticbarright{
+    text-align: end;
+    float: right;
+    width: 50%;
+    margin: 3vh 0px;
+}
+.navstaticbarleft{
+    text-align: start;
+    float:left;
+    width:50%;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password]{
+	width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+input:focus,input:hover{
+	border-radius: 15px;
+	border: 1px solid #026f1a;
+	outline:none;
+}
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px 1px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 7px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* .container,.container1 {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+} */
+
+/* /* The Modal (background) */
+/* .signuppopup ,.signInpopup {
+  display: none; Hidden by default
+  position: fixed; Stay in place
+  z-index: 1; Sit on top
+  left: 0;
+  top: 0;
+  width: 100%; Full width
+  height: 100%; Full height
+  overflow: auto; Enable scroll if needed
+  background-color: rgb(0,0,0); Fallback color
+  background-color: rgba(0,0,0,0.4); Black w/ opacity
+  padding-top: 60px;
+} */
+ */
+/* Modal Content/Box */
+.modal-content,.model-content1{
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width:40% /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close{
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* /* Add Zoom Animation
+.animate ,.animate1{
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+ */
+/* Change styles for span and cancel button on extra small screens
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+} */ */
+
+footer{
+		position:fixed;
+		bottom:0;
+		width:100%;
+		text-align:center;
+		color:black;
+}
+.optionsSections{
+	position:fixed;
+}
+.tablerow{
+	position:absolute;
+	padding:1px;
+	width:5%;
+}
+label{
+	font-family: initial;
+    font-weight: bolder;
+}
+
+.button{
+	border-radius: 7px;
+	color: white;
+	margin: 2px;
+    font-size: initial;
+    padding: 6px 15px;
+    border-color: white;
+    border-style: double;
+    cursor: pointer;
+} .Create,.submit{
+	 background-color:#0a8d10
+}
+.clear{
+    background-color: #F44336;
+}
+.form-control{
+	margin:0px auto;
+}
+.table{
+	border-collapse:collapse;
+}.table td,.table th{
+    border: 2px solid;
+    padding: 3px 5px;
+    text-align: left;
+}
+.col{
+	width:auto;
+	max-width:10vw;
+}
+.signuppopup,.signInpopup{
+    padding: 60px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-radius: 15px;
+}
+.form_control{
+	overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 5% 25%;
+    width: 50vw;	
+}
+.error{
+    color: #e42f06;
+    border-radius: 5px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+}   

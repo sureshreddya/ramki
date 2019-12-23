@@ -1,0 +1,35 @@
+.body_Container{
+	width : 100%;
+}
+.navStaticbar{
+    text-align: center;
+    width:100%;
+    background-color: #000;
+}
+a {
+    text-decoration: none;
+    color:#080707;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    font-size: 25px;
+    
+}
+ul li:hover{
+background-color:#8080ff;
+border-radius:40px;
+}
+.navstaticbarright{
+    text-align: end;
+    float: right;
+    width: 50%;
+    border-bottom: 3px solid black; 
+}
+.navstaticbarleft{
+    text-align: start;
+    float:left;
+    width:50%;
+    border-bottom: 3px solid black; 
+}
